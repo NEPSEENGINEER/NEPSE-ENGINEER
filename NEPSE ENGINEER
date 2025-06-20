@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nepse Engineer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #222;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .card {
+      background-color: #1e1e1e;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+    }
+    .qr-code {
+      text-align: center;
+      margin-top: 20px;
+    }
+    img.qr {
+      max-width: 200px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>Nepse Engineer</header>
+  <nav>
+    <a href="#watchlist">Watchlist</a>
+    <a href="#classes">Technical Class</a>
+    <a href="#portfolio">Portfolio Management</a>
+    <a href="#payment">Payment</a>
+  </nav>
+
+  <section id="watchlist">
+    <div class="card">
+      <h2>Watchlist Service</h2>
+      <p>Get daily/weekly curated stock picks based on technical analysis. Includes entry/exit zones and risk levels.</p>
+    </div>
+  </section>
+
+  <section id="classes">
+    <div class="card">
+      <h2>Technical Analysis Class</h2>
+      <p>We teach: Basic Technicals → Price Action → SMC → ICT. Courses tailored for NEPSE traders.</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="card">
+      <h2>Portfolio Management</h2>
+      <p>We help you structure your investments and manage them with risk control. Ideal for long-term traders.</p>
+    </div>
+  </section>
+
+  <section id="payment">
+    <div class="card qr-code">
+      <h2>Payment</h2>
+      <p>Scan the QR code below to make payment for any service:</p>
+      <img src="your-qr-code.png" alt="Payment QR Code" class="qr">
+    </div>
+  </section>
+</body>
+</html>
